@@ -1,4 +1,4 @@
-# 🌦 Weather Now App
+# 🌦 Wthr App
 
 A simple Android app built with Kotlin that fetches and displays the current weather of any city using the [OpenWeatherMap API](https://openweathermap.org/).
 
@@ -40,7 +40,7 @@ A simple Android app built with Kotlin that fetches and displays the current wea
     OpenWeatherMap API docs: https://openweathermap.org/current
 ```
 ##  Notes
-
+``
     - You need an active internet connection to fetch weather data.
     - Make sure your app has INTERNET permission in AndroidManifest.xml:
         - <uses-permission android:name="android.permission.INTERNET"/>
