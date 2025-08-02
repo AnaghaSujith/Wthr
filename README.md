@@ -35,6 +35,10 @@ A simple Android app built with Kotlin that fetches and displays the current wea
       -val API_KEY = "3a3fe9945a38edc37c34319214f993cd"
 4. Run the app on emulator or physical device.
 
+## App UI
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/0389e0c2-4485-420f-b7d0-a995b2192439" />
+
+
 ##  API Reference
 ```bash
     OpenWeatherMap API docs: https://openweathermap.org/current
