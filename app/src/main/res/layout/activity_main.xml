@@ -1,0 +1,64 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/sky">
+
+    <!-- Weather Icon -->
+    <ImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Weather Icon"
+        android:visibility="gone" />  <!-- Make visible when data loads -->
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Wthr."
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city name"
+        android:background="@drawable/input_background"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <Button
+        android:id="@+id/getWeatherBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Weather"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/weatherResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will appear here"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:textColor="#333"
+        android:elevation="2dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
+
