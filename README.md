@@ -26,7 +26,7 @@ A simple Android app built with Kotlin that fetches and displays the current wea
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/AnaghaSujith/wthr-app.git
+   git clone https://github.com/AnaghaSujith/Wthr-app.git
 2. **Open with Android Studio**
 3. Add your API key
 
