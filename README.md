@@ -1,4 +1,4 @@
-# 🌦 Wthr App
+# Wthr App
 
 A simple Android app built with Kotlin that fetches and displays the current weather of any city using the [OpenWeatherMap API](https://openweathermap.org/).
 
