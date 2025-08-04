@@ -36,7 +36,7 @@ A simple Android app built with Kotlin that fetches and displays the current wea
 4. Run the app on emulator or physical device.
 
 ## App UI
-<img width="200" height="500" alt="image" src="https://github.com/user-attachments/assets/0389e0c2-4485-420f-b7d0-a995b2192439" />
+<img width="250" height="500" alt="image" src="https://github.com/user-attachments/assets/0389e0c2-4485-420f-b7d0-a995b2192439" />
 
 
 ##  API Reference
